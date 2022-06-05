@@ -1,8 +1,8 @@
 {
-    "header.pricing": "תמחור",
+    "pricing": "תמחור",
     "header.price": "$120",
-    "header.about-us": "עלינו",
-    "header.careers": "קריירה",
-    "button.get-started": "להתחיל",
+    "about-us": "עלינו",
+    "careers": "קריירה",
+    "get-started": "להתחיל",
     "first-heading": "חבר את כולם יחד כדי לבנות מוצר טוב יותר"
 }

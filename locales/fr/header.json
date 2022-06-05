@@ -1,8 +1,8 @@
 {
-    "header.pricing": "tarification",
+    "pricing": "tarification",
     "header.price": "120 $",
-    "header.about-us": "à propos de nous",
-    "header.careers": "carrières",
-    "button.get-started": "Commencer",
+    "about-us": "à propos de nous",
+    "careers": "carrières",
+    "get-started": "Commencer",
     "first-heading": "Rassembler tout le monde pour créer un meilleur produit"
 }

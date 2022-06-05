@@ -2,8 +2,6 @@ const withImages = require("next-images");
 const nextTranslate = require("next-translate");
 
 const nextConfig = {
-  ...nextTranslate(),
-
   reactStrictMode: true,
   images: {
     disableStaticImages: true,
@@ -22,6 +20,7 @@ const nextConfig = {
 
     return config;
   },
+  ...nextTranslate(),
 };
 
 module.exports = withImages(nextConfig);

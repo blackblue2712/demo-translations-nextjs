@@ -44,16 +44,18 @@ const Home: NextPage = () => {
 
           <div className="hidden md:flex space-x-6">
             <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue">Pricing</a>
+              <a className="hover:text-darkGrayishBlue capitalize">
+                {t("header:pricing")}
+              </a>
             </Link>
             <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue">Products</a>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:product")}</a>
             </Link>
             <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue">About Us</a>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:about-us")}</a>
             </Link>
             <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue">Careers</a>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:careers")}</a>
             </Link>
             {/* <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue">Community</a>

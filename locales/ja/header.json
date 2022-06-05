@@ -1,8 +1,8 @@
 {
-    "header.pricing": "価格設定",
+    "pricing": "価格設定",
     "header.price": "120ドル",
-    "header.about-us": "私たちに関しては",
-    "header.careers": "キャリア",
-    "button.get-started": "はじめに ",
+    "about-us": "私たちに関しては",
+    "careers": "キャリア",
+    "get-started": "はじめに ",
     "first-heading": "より良い製品を作るために、みんなの力を結集する"
 }

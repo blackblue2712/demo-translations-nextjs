@@ -1,8 +1,8 @@
 {
-    "header.pricing": "ценообразование",
+    "pricing": "ценообразование",
     "header.price": "120 долларов",
-    "header.about-us": "о нас",
-    "header.careers": "карьера",
-    "button.get-started": "Начать",
+    "about-us": "о нас",
+    "careers": "карьера",
+    "get-started": "Начать",
     "first-heading": "Собрать всех вместе, чтобы создать лучший продукт"
 }

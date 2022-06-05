@@ -1,3 +1,8 @@
 {
-  "pricing": "pricing"
+    "header.pricing": "pricing",
+    "header.price": "$120",
+    "header.about-us": "about us",
+    "header.careers": "careers",
+    "button.get-started": "Get Started",
+    "first-heading": "Bring everyone together to build better product"
 }

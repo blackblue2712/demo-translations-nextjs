@@ -9,12 +9,13 @@ import Avatar1 from '../src/assets/img/avatar-anisha.png';
 import Avatar2 from '../src/assets/img/avatar-ali.png';
 import Avatar3 from '../src/assets/img/avatar-richard.png';
 import Facebook from '../src/assets/img/icon-facebook.svg';
-import Hamburger from '../src/assets/img/icon-hamburger.svg';
 import Instagram from '../src/assets/img/icon-instagram.svg';
 import Twitter from '../src/assets/img/icon-twitter.svg';
 import Pinterest from '../src/assets/img/icon-pinterest.svg';
 import Youtube from '../src/assets/img/icon-youtube.svg';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
+import { useRouter } from 'next/router';
+import useTranslation from "next-translate/useTranslation";
 
 const Home: NextPage = () => {
 
@@ -25,6 +26,13 @@ const Home: NextPage = () => {
     ref.current?.classList.toggle('open');
     menuRef.current?.classList.toggle('hidden');
   }
+
+  const router = useRouter();
+  const { t, lang } = useTranslation();
+  const dir = lang === "he" ? "rtl" : "ltr";
+
+  const [currentLang, setCurrentLang] = useState('EN');
+
 
   return (
     <div className="">
@@ -39,7 +47,7 @@ const Home: NextPage = () => {
               <a className="hover:text-darkGrayishBlue">Pricing</a>
             </Link>
             <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue">Product</a>
+              <a className="hover:text-darkGrayishBlue">Products</a>
             </Link>
             <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue">About Us</a>
@@ -47,9 +55,34 @@ const Home: NextPage = () => {
             <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue">Careers</a>
             </Link>
-            <Link href="#" passHref>
+            {/* <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue">Community</a>
-            </Link>
+            </Link> */}
+
+            <div className='relative z-50 group '>
+              <button ref={ref} onClick={onHamburgerClick} id="menu-language" className="blocktra focus:outline-none uppercase">
+                {currentLang}
+              </button>
+
+              <div className="hidden group-hover:block absolute flex flex-col items-start justtify-center bg-white drop-shadow top-6 left-0">
+                {router.locales?.map((locale) => {
+                  return (
+                    <div key={locale} onClick={() => setCurrentLang(locale)}>
+                      <Link
+                        href={router.asPath}
+                        as={router.asPath}
+                        locale={locale}
+                        passHref
+                      >
+                        <a className="no-underline hover:text-brightRed px-4 py-2 block">
+                          {locale === "he" ? locale + "(RTL)" : locale}
+                        </a>
+                      </Link>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
 
           <button className="hidden items-center justify-center p-2 px-6 text-white bg-brightRed rounded-full hover:bg-brightRedLight md:flex">

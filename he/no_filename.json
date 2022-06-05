@@ -1,0 +1,14 @@
+{
+    "header.pricing": "תמחור",
+    "product": {
+        "one": "מוצר",
+        "two": "",
+        "many": "",
+        "other": ""
+    },
+    "header.price": "$120",
+    "header.about-us": "עלינו",
+    "header.careers": "קריירה",
+    "button.get-started": "להתחיל",
+    "first-heading": "חבר את כולם יחד כדי לבנות מוצר טוב יותר"
+}

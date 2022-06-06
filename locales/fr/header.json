@@ -1,9 +1,11 @@
 {
-  "pricing": "tarification",
-  "header.price": "120 $",
-  "about-us": "à propos de nous",
-  "careers": "carrières",
-  "get-started": "Commencer",
-  "first-heading": "Rassembler tout le monde pour créer un meilleur produit",
-  "product": ""
+    "pricing": "tarification",
+    "header.price": "120 $",
+    "about-us": "à propos de nous",
+    "careers": "carrières",
+    "get-started": "Commencer",
+    "first-heading": "Rassembler tout le monde pour créer un meilleur produit",
+    "standard-tier": "{{price}} dollars",
+    "date": "",
+    "product": "Produit"
 }

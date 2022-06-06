@@ -58,6 +58,13 @@ const Home: NextPage = () => {
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:careers")}</a>
             </Link>
             {/* <Link href="#" passHref>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:standard-tier", { price: 20 })}</a>
+            </Link>
+
+            <Link href="#" passHref>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:date", { date: new Date() })}</a>
+            </Link> */}
+            {/* <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue">Community</a>
             </Link> */}
 

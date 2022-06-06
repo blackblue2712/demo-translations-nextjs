@@ -33,8 +33,6 @@ const Home: NextPage = () => {
 
   const [currentLang, setCurrentLang] = useState('EN');
 
-  // t("footer:policies")
-
   return (
     <div className="">
       <nav className="relative container mx-auto p-6">
@@ -58,6 +56,14 @@ const Home: NextPage = () => {
             <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:careers")}</a>
             </Link>
+
+            <Link href="#" passHref>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:total-product.one", { number: 1 })}</a>
+            </Link>
+
+            {/* <Link href="#" passHref>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:total-product.one", {number: 1})}</a>
+            </Link> */}
 
             {/* <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:standard-tier", { price: 20 })}</a>
@@ -140,6 +146,11 @@ const Home: NextPage = () => {
               {t("header:currentYear", { date: new Date() })}
               <br />
               {t("header:standard-tier", { price: 35.5 })}
+              <br />
+              Plurals: {t("header:total-product.one", { number: 1 })}
+              <br />
+              Plurals: {t("header:total-product.other", { number: 2 })}
+              <br />
             </p>
 
             <div className="div flex justify-center md:justify-start">

@@ -8,7 +8,7 @@
   "standard-tier": "{{price}} dollars",
   "date": "{{date}}",
   "product": "Product",
-  "currentYear": "MEMBER SINCE {{date, en-date}}",
+  "currentYear": "Current year: {{date, en-date}}",
   "first-heading-description": "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
   "total-product": {
     "one": "{{number}} product",

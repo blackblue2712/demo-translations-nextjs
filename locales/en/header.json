@@ -1,11 +1,11 @@
 {
-  "pricing": "pricing",
-  "header.price": "$120",
-  "about-us": "about us",
-  "careers": "careers",
-  "get-started": "Get Started",
-  "first-heading": "Bring everyone together to build better product",
-  "standard-tier": "{{price}} $",
-  "date": "{{date}}",
-  "product": ""
+    "pricing": "pricing",
+    "header.price": "$120",
+    "about-us": "about us",
+    "careers": "careers",
+    "get-started": "Get Started",
+    "first-heading": "Bring everyone together to build better product",
+    "standard-tier": "{{price}} dollars",
+    "date": "{{date}}",
+    "product": "Product"
 }

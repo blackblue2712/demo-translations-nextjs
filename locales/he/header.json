@@ -1,11 +1,14 @@
 {
-    "pricing": "תמחור",
-    "header.price": "$120",
-    "about-us": "עלינו",
-    "careers": "קריירה",
-    "get-started": "להתחיל",
-    "first-heading": "חבר את כולם יחד כדי לבנות מוצר טוב יותר",
-    "standard-tier": "{{price}} דולר",
-    "date": "",
-    "product": "מוצר"
+  "pricing": "תמחור",
+  "product": "מוצר",
+  "about-us": "עלינו",
+  "careers": "קריירה",
+  "example_one": "",
+  "example_two": "",
+  "example_many": "",
+  "example_other": "",
+  "currentYear": "",
+  "get-started": "להתחיל",
+  "first-heading": "חבר את כולם יחד כדי לבנות מוצר טוב יותר",
+  "first-heading-description": ""
 }

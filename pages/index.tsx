@@ -33,6 +33,7 @@ const Home: NextPage = () => {
 
   const [currentLang, setCurrentLang] = useState('EN');
 
+  // t("footer:policies")
 
   return (
     <div className="">
@@ -56,6 +57,13 @@ const Home: NextPage = () => {
             </Link>
             <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:careers")}</a>
+            </Link>
+            
+            <Link href="#" passHref>
+              <a className="hover:text-darkGrayishBlue capitalize">{t('header:example', { count: 33.5})}</a>
+            </Link>
+            <Link href="#" passHref>
+              <a className="hover:text-darkGrayishBlue capitalize">{t("header:currentYear", {date: new Date() as any})}</a>
             </Link>
             {/* <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:standard-tier", { price: 20 })}</a>
@@ -135,8 +143,11 @@ const Home: NextPage = () => {
               {t("header:first-heading")}
             </h1>
             <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-              Manage makes it simple for software teams to plan day-to-day tasks
-              while keeping the larger team goals in view.
+              {t("header:first-heading-description")}
+            </p>
+
+            <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
+              CurrentTime: ${}
             </p>
 
             <div className="div flex justify-center md:justify-start">

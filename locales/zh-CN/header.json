@@ -9,5 +9,8 @@
   "date": "{{date}}",
   "product": "产品",
   "currentYear": "成员自 {{date, en-date}}",
-  "first-heading-description": "Manage 使软件团队可以轻松规划日常任务，同时保持更大的团队目标。"
+  "first-heading-description": "Manage 使软件团队可以轻松规划日常任务，同时保持更大的团队目标。",
+  "total-product": {
+    "other": "{{number}}产品"
+  }
 }

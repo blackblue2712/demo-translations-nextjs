@@ -3,11 +3,15 @@
   "header.price": "120 $",
   "about-us": "à propos de nous",
   "careers": "carrières",
-  "currentYear": "Heure actuelle {{date, vi-date}}",
   "get-started": "Commencer",
   "first-heading": "Rassembler tout le monde pour créer un meilleur produit",
-  "standard-tier": "Niveau standard: {{price, number}} $",
+  "standard-tier": "{{price}} dollars",
   "date": "{{date}}",
   "product": "Produit",
-  "first-heading-description": "Manage permet aux équipes logicielles de planifier facilement les tâches quotidiennes tout en gardant à l'esprit les objectifs de l'équipe plus large."
+  "currentYear": "MEMBRE DEPUIS {{date, en-date}}",
+  "first-heading-description": "Manage permet aux équipes logicielles de planifier facilement les tâches quotidiennes tout en gardant à l'esprit les objectifs de l'équipe plus large.",
+  "total-product": {
+    "one": "{{number}} produit",
+    "other": ""
+  }
 }

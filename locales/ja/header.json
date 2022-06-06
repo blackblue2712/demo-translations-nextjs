@@ -9,5 +9,8 @@
   "date": "{{date}}",
   "product": "製品",
   "currentYear": "{{date、en-date}}以降のメンバー",
-  "first-heading-description": "管理により、ソフトウェアチームは、より大きなチームの目標を視野に入れながら、日常のタスクを簡単に計画できます。"
+  "first-heading-description": "管理により、ソフトウェアチームは、より大きなチームの目標を視野に入れながら、日常のタスクを簡単に計画できます。",
+  "total-product": {
+    "other": "{{number}}製品"
+  }
 }

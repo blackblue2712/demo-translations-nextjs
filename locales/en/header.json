@@ -3,11 +3,15 @@
   "header.price": "$120",
   "about-us": "about us",
   "careers": "careers",
-  "currentYear": "Current time {{date, en-date}}",
   "get-started": "Get Started",
   "first-heading": "Bring everyone together to build better product",
-  "standard-tier": "Standard tier: {{price, number}} $",
+  "standard-tier": "{{price}} dollars",
   "date": "{{date}}",
   "product": "Product",
-  "first-heading-description": "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view."
+  "currentYear": "MEMBER SINCE {{date, en-date}}",
+  "first-heading-description": "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
+  "total-product": {
+    "one": "{{number}} product",
+    "other": "{{number}} products"
+  }
 }

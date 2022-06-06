@@ -9,5 +9,11 @@
   "date": "{{date}}",
   "product": "מוצר",
   "currentYear": "חבר מאז {{date, en-date}}",
-  "first-heading-description": "ניהול מקל על צוותי תוכנה לתכנן משימות יומיומיות תוך שמירה על יעדי הצוות הגדולים יותר."
+  "first-heading-description": "ניהול מקל על צוותי תוכנה לתכנן משימות יומיומיות תוך שמירה על יעדי הצוות הגדולים יותר.",
+  "total-product": {
+    "one": "מוצר {{number}}",
+    "two": "",
+    "many": "",
+    "other": ""
+  }
 }

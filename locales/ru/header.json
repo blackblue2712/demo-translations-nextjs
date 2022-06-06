@@ -1,10 +1,13 @@
 {
   "pricing": "ценообразование",
-  "product": "Товар",
+  "header.price": "120 долларов",
   "about-us": "о нас",
   "careers": "карьера",
-  "currentYear": "",
   "get-started": "Начать",
   "first-heading": "Собрать всех вместе, чтобы создать лучший продукт",
-  "first-heading-description": ""
+  "standard-tier": "{{price}} долларов",
+  "date": "{{date}}",
+  "product": "Товар",
+  "currentYear": "ЧЛЕН С {{дата, дата окончания}}",
+  "first-heading-description": "Manage позволяет командам разработчиков программного обеспечения легко планировать повседневные задачи, не забывая при этом о более крупных целях команды."
 }

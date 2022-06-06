@@ -8,10 +8,11 @@
   "standard-tier": "{{price}} dollars",
   "date": "{{date}}",
   "product": "Produit",
-  "currentYear": "MEMBRE DEPUIS {{date, en-date}}",
+  "currentYear": "Année actuelle {{date, vi-date}}",
   "first-heading-description": "Manage permet aux équipes logicielles de planifier facilement les tâches quotidiennes tout en gardant à l'esprit les objectifs de l'équipe plus large.",
   "total-product": {
     "one": "{{number}} produit",
-    "other": ""
-  }
+    "other": "{{number}} produits"
+  },
+  "second-heading-description": "Qu'est-ce qui est différent avec Manage?"
 }

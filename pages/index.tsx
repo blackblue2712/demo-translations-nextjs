@@ -60,9 +60,6 @@ const Home: NextPage = () => {
             </Link>
             
             <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue capitalize">{t('header:example', { count: 33.5})}</a>
-            </Link>
-            <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:currentYear", {date: new Date() as any})}</a>
             </Link>
             {/* <Link href="#" passHref>

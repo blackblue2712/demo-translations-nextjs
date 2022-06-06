@@ -58,17 +58,11 @@ const Home: NextPage = () => {
             <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:careers")}</a>
             </Link>
-            
-            <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue capitalize">{t("header:currentYear", {date: new Date() as any})}</a>
-            </Link>
+
             {/* <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue capitalize">{t("header:standard-tier", { price: 20 })}</a>
-            </Link>
-
-            <Link href="#" passHref>
-              <a className="hover:text-darkGrayishBlue capitalize">{t("header:date", { date: new Date() })}</a>
             </Link> */}
+
             {/* <Link href="#" passHref>
               <a className="hover:text-darkGrayishBlue">Community</a>
             </Link> */}
@@ -136,15 +130,16 @@ const Home: NextPage = () => {
         <div className="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
           {/* left items */}
           <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
-            <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left" dir={dir}>
+            <h1 className="max-w-md text-4xl font-bold -sm:text-center md:text-5xl" dir={dir}>
               {t("header:first-heading")}
             </h1>
-            <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            <p className="max-w-sm -sm:text-center text-darkGrayishBlue" dir={dir}>
               {t("header:first-heading-description")}
             </p>
-
-            <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-              CurrentTime: ${}
+            <p className="max-w-sm -sm:text-center text-darkGrayishBlue" dir={dir}>
+              {t("header:currentYear", { date: new Date() })}
+              <br />
+              {t("header:standard-tier", { price: 35.5 })}
             </p>
 
             <div className="div flex justify-center md:justify-start">

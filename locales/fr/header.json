@@ -1,18 +1,15 @@
 {
   "pricing": "tarification",
-  "header.price": "120 $",
+  "product": "Produit",
   "about-us": "à propos de nous",
   "careers": "carrières",
   "get-started": "Commencer",
   "first-heading": "Rassembler tout le monde pour créer un meilleur produit",
-  "standard-tier": "{{price}} dollars",
-  "date": "{{date}}",
-  "product": "Produit",
-  "currentYear": "Année actuelle {{date, vi-date}}",
   "first-heading-description": "Manage permet aux équipes logicielles de planifier facilement les tâches quotidiennes tout en gardant à l'esprit les objectifs de l'équipe plus large.",
+  "currentYear": "Année actuelle {{date, vi-date}}",
+  "standard-tier": "{{price}} dollars",
   "total-product": {
     "one": "{{number}} produit",
     "other": "{{number}} produits"
-  },
-  "second-heading-description": "Qu'est-ce qui est différent avec Manage?"
+  }
 }

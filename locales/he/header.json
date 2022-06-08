@@ -1,20 +1,15 @@
 {
   "pricing": "תמחור",
-  "header.price": "$120",
+  "product": "מוצר",
   "about-us": "עלינו",
   "careers": "קריירה",
   "get-started": "להתחיל",
   "first-heading": "חבר את כולם יחד כדי לבנות מוצר טוב יותר",
-  "standard-tier": "{{price}} דולר",
-  "date": "{{date}}",
-  "product": "מוצר",
-  "currentYear": "חבר מאז {{date, en-date}}",
   "first-heading-description": "ניהול מקל על צוותי תוכנה לתכנן משימות יומיומיות תוך שמירה על יעדי הצוות הגדולים יותר.",
+  "currentYear": "חבר מאז {{date, en-date}}",
+  "standard-tier": "{{price}} דולר",
   "total-product": {
     "one": "מוצר {{number}}",
-    "two": "",
-    "many": "",
     "other": "מוצר {{number}}"
-  },
-  "second-heading-description": "מה ההבדל בניהול?"
+  }
 }

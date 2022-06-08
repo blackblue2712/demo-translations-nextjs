@@ -33,6 +33,10 @@ const Home: NextPage = () => {
 
   const [currentLang, setCurrentLang] = useState('EN');
 
+  t("footer:example");
+  t("footer:policies");
+  t("common:home");
+
   return (
     <div className="">
       <nav className="relative container mx-auto p-6">

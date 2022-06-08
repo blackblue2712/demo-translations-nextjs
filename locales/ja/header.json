@@ -1,17 +1,15 @@
 {
   "pricing": "価格設定",
-  "header.price": "120ドル",
+  "product": "製品",
   "about-us": "私たちに関しては",
   "careers": "キャリア",
   "get-started": "はじめに",
   "first-heading": "より良い製品を作るために、みんなの力を結集する",
-  "standard-tier": "{{price}}ドル",
-  "date": "{{date}}",
-  "product": "製品",
-  "currentYear": "{{date, en-date}}以降のメンバー",
   "first-heading-description": "管理により、ソフトウェアチームは、より大きなチームの目標を視野に入れながら、日常のタスクを簡単に計画できます。",
+  "currentYear": "{{date, en-date}}以降のメンバー",
+  "standard-tier": "{{price}}ドル",
   "total-product": {
+    "one": "{{number}}製品",
     "other": "{{number}}製品"
-  },
-  "second-heading-description": "管理の違いは何ですか？"
+  }
 }

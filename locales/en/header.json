@@ -1,18 +1,15 @@
 {
   "pricing": "pricing",
-  "header.price": "$120",
+  "product": "Product",
   "about-us": "about us",
   "careers": "careers",
   "get-started": "Get Started",
   "first-heading": "Bring everyone together to build better product",
-  "standard-tier": "{{price}} dollars",
-  "date": "{{date}}",
-  "product": "Product",
-  "currentYear": "Current year {{date, en-date}}",
   "first-heading-description": "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
+  "currentYear": "Current year {{date, en-date}}",
+  "standard-tier": "{{price}} dollars",
   "total-product": {
     "one": "{{number}} product",
     "other": "{{number}} products"
-  },
-  "second-heading-description": "What's different about Manage?"
+  }
 }

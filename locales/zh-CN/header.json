@@ -1,17 +1,15 @@
 {
   "pricing": "价钱",
-  "header.price": "120 美元",
+  "product": "产品",
   "about-us": "关于我们",
   "careers": "职业生涯",
   "get-started": "开始使用",
   "first-heading": "凝聚大家一起打造更好的产品",
-  "standard-tier": "{{price}}美元",
-  "date": "{{date}}",
-  "product": "产品",
-  "currentYear": "成员自 {{date, en-date}}",
   "first-heading-description": "Manage 使软件团队可以轻松规划日常任务，同时保持更大的团队目标。",
+  "currentYear": "成员自 {{date, en-date}}",
+  "standard-tier": "{{price}}美元",
   "total-product": {
+    "one": "",
     "other": "{{number}}产品"
-  },
-  "second-heading-description": "管理有什么不同？"
+  }
 }
